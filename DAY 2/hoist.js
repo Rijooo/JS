@@ -5,6 +5,7 @@ console.log(a);
 var a = 10;
 
 
+
 //declaring using let
 
 
@@ -15,8 +16,9 @@ console.log(b);
 //declaring using const
 
 
-console.log(c);
 const c = 30;
+
+console.log(c);
 
 
 
