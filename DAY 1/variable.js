@@ -7,3 +7,5 @@ function newvar() {
   console.log(a);
 }
 newvar();
+
+// alert("sucess");
