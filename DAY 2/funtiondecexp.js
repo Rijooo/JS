@@ -16,12 +16,12 @@ like();
 
 let one = () => {
   console.log("kumari3");
-  let two = () => {
+  let two = () => { 
     console.log("kumari4");
-    let three = () => {
-      console.log("kumari6");
+    let three = (x) => {
+      console.log(`kumari is ${x}`);
     };
-    three();
+    three("LOVE");
   };
   two();
 };
