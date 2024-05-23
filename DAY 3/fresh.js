@@ -1,7 +1,17 @@
 "That was a JOKE, go back to coding";
 
-function clicked() {
-   // document.getElementById("click").innerHTML="Button clicked";
+function clic() {
+   
     console.log("here");
 }
-clicked();
+clic();
+
+function savee(){
+    let a = document.getElementById("first").value
+    console.log(a)
+    document.getElementById("print").innerHTML = a;
+}
+savee();
+
+
+

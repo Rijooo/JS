@@ -5,3 +5,6 @@
     background-color: black;
     color: white;
 }
+.first:hover{
+    background-color: darkgoldenrod;
+}

@@ -22,9 +22,9 @@
     </div>
     <br />
     <div style="padding-left: 300px">
-      <div style="display: block">
+      <div style="display: block" >
         <input type="checkbox" />
-        <label style="border: 50px; background-color: beige; padding: 2px"
+        <label class="first" style="border: 50px; background-color: beige; padding: 2px"
           >HTML</label
         >
       </div>
@@ -56,6 +56,14 @@
           >API</label
         >
       </div>
+      <br>
+      <div>
+        <input type="value" id="first"/>
+        <label style="cursor: pointer; border: 50px; background-color: beige; padding: 2px"
+        onclick="savee()"
+          >others</label
+        >
+      </div>
     </div>
     <br />
     <div style="padding-left: 300px">
@@ -63,12 +71,12 @@
         class="btn"
         type="button"
         style="padding: 8px; border-radius: 10px"
-        onclick="clicked()"
+        onclick="clic()"
       >
         SUBMIT
       </button>
     </div>
-    <p id="click"></p>
+    <p id="print"></p>
     <div style="display: flex; align-items: center; justify-content: center">
       <h4 style="color: crimson; font-family: cursive; font-size: medium">
         * Please click the submit button only if all the options are checked
