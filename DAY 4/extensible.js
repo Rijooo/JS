@@ -8,13 +8,13 @@ let a ={
         console.log("KUMARI is beautiful")
     }
 }
-// a.func()
+a.func()
 
 console.log(a)
 
 console.log(Object.isExtensible(a));
 
-Object.preventExtensions(a)
+//Object.preventExtensions(a)
 
 try{
 Object.defineProperty(a,"property1",{foot:"cristiano"})
@@ -25,6 +25,9 @@ catch(e){
 
 //a.foot="cristiano"
 //console.log(Object.isExtensible(a));
+
+//console.log(Object.isExtensible(a));
+
 
 console.log(a)
 
