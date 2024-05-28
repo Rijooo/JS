@@ -1,18 +1,11 @@
-"That was a JOKE, go back to coding";
 
-function clic() {
-   
-    console.log("here");
+
+function a(){
+    let x=10;
+    function b(){
+        console.log(x)
+    }
+    b()
+
 }
-clic();
-
-function savee(){
-    let a = document.getElementById("first").value
-    console.log(a)
-    document.getElementById("print").innerHTML = a;
-}
-savee();
-
-
-
-
+a()
