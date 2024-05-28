@@ -3,6 +3,9 @@ function a() {
   function b() {
     console.log(x);
   }
-  b();
+  return b;
 }
-a();
+console.log(a());
+
+
+//a function along with its lexical scope is called closure

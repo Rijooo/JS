@@ -5,7 +5,9 @@ function a(){
     function b(){
         console.log(x)
     }
-    b()
+    return b;
 
 }
-a()
+let m=a();
+console.log(m);
+m();
