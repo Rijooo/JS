@@ -12,3 +12,17 @@ function c(){
 c()
 
 //a function along with its lexical scope is called closure
+
+
+
+
+function m(){
+  let name="Rijo"
+  function n(){
+    console.log(name)
+  }
+  return n;
+}
+let z=m()
+console.log(z)
+z()
