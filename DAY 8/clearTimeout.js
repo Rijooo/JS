@@ -8,3 +8,4 @@ let ticket=setTimeout(x,1000)
 clearTimeout(ticket)
 
 setTimeout(x,3000)
+
