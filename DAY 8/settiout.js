@@ -11,3 +11,5 @@ setTimeout((b)=>{
     let name="Asmi"
     console.log(name+ b)
 },2000,20)
+
+console.log("end")
