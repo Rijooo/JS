@@ -9,10 +9,10 @@ let p = new Promise(function (resolve, reject) {
   if (name.includes("R") == true) {
     
     resolve();
-  } //this whole block is called executer
+  }                       //this whole block is called executer
   else {
     reject();
-  }
+  }                        //this whole block is called consumer
 });
 
 p.then(function () {
